@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Button from "../components/Button";
 import { Menu, X } from "lucide-react";
 // eslint-disable-next-line no-unused-vars
@@ -25,9 +25,25 @@ const navLinks = [
 
 const Navbar = () => {
   const [isMobileMenueOpen, setIsMobileMenueOpen] = useState(false);
+
+  const [isScorlled, setIsScorlled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScorlled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <header className=" fixed top-0 left-0 right-0 bg-transparent py-5 z-50">
+      <header
+        className={`fixed top-0 left-0 right-0 transition-all duration-500 ${isScorlled ? "glass py-3 rounded-b-lg" : "bg-transparent py-5"}  z-50`}
+      >
         <nav className="container mx-auto px-6 justify-between flex">
           <a
             href="#"
