@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react-hooks/purity */
-import React from "react";
 import Button from "../components/Button";
 import {
   ArrowRight,
@@ -30,10 +29,7 @@ const skills = [
 const Hero = () => {
   return (
     <>
-      <section
-        className="relative min-h-screen flex items-center overflow-hidden"
-        id="about"
-      >
+      <section className="relative min-h-screen flex items-center overflow-hidden">
         {/* Bg Image */}
         <div className="absolute inset-0">
           <img

@@ -94,13 +94,16 @@ const Navbar = () => {
                 <a
                   href={link.href}
                   key={index}
+                  onClick={() => setIsMobileMenueOpen(false)}
                   className="text-lg text-muted-foreground hover:text-foreground py-2"
                 >
                   {link.label}
                 </a>
               ))}
               <div>
-                <Button>Contact Me</Button>
+                <Button onClick={() => setIsMobileMenueOpen(false)}>
+                  Contact Me
+                </Button>
               </div>
             </div>
           </div>
