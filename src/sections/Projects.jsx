@@ -91,14 +91,14 @@ const projects = () => {
                       <a
                         href={project.link}
                         target="_blank"
-                        className="p-3 rounded-full glass hover:bg-primary hover: text-primary-foreground transition-all"
+                        className="hidden md:block p-3 rounded-full glass hover:bg-primary hover: text-primary-foreground transition-all"
                       >
                         <ArrowUpRight className="w-5 h-5" />
                       </a>
                       <a
                         href={project.github}
                         target="_blank"
-                        className="p-3 rounded-full glass hover:bg-primary hover: text-primary-foreground transition-all"
+                        className="hidden md:block p-3 rounded-full glass hover:bg-primary hover: text-primary-foreground transition-all"
                       >
                         <Github className="w-5 h-5" />
                       </a>
