@@ -1,5 +1,5 @@
 import { Github } from "@boxicons/react";
-import { ArrowUpRight, Link } from "lucide-react";
+import { ArrowUpRight, Link, Link2 } from "lucide-react";
 import React from "react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
@@ -133,7 +133,7 @@ const projects = () => {
                           target="_blank"
                           className="p-3 rounded-full glass hover:bg-primary hover: text-primary-foreground transition-all"
                         >
-                          <ArrowUpRight className="w-5 h-5" />
+                          <Link2 className="w-5 h-5" />
                         </a>
                         <a
                           href={project.github}
