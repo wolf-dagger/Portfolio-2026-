@@ -69,7 +69,9 @@ const Navbar = () => {
           {/* Contact Button */}
 
           <div className="hidden md:block">
-            <Button size="sm">Contact Me</Button>
+            <a href="#contact">
+              <Button size="sm">Contact Me</Button>
+            </a>
           </div>
 
           {/* Mobile Menue button*/}
@@ -101,9 +103,11 @@ const Navbar = () => {
                 </a>
               ))}
               <div>
-                <Button onClick={() => setIsMobileMenueOpen(false)}>
-                  Contact Me
-                </Button>
+                <a href="#contact">
+                  <Button onClick={() => setIsMobileMenueOpen(false)}>
+                    Contact Me
+                  </Button>
+                </a>
               </div>
             </div>
           </div>

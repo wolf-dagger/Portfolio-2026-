@@ -8,7 +8,7 @@ const project = [
     title: "Weather App",
     description:
       "A weather app built with React which fetches weather data for the input city.",
-    image: "/public/projects thumbanails/project2.png",
+    image: "/projects thumbanails/project2.png",
     tags: ["React", "OpenWeather API"],
     link: "https://wolf-dagger.github.io/weatherApp/",
     github: "https://github.com/wolf-dagger/weatherApp",
@@ -17,7 +17,7 @@ const project = [
     title: "Amazon Clone",
     description:
       "A clone of the Amazon website built with React and Redux Toolkit",
-    image: "/public/projects thumbanails/project1.png",
+    image: "/projects thumbanails/project1.png",
     tags: ["React", "Redux Toolkit"],
     link: "https://amazoon-cart-system-prashant.netlify.app/",
     github: "https://github.com/wolf-dagger/weatherApp",
@@ -25,7 +25,7 @@ const project = [
   {
     title: "Todo App",
     description: "A todo app built with React and Redux Toolkit",
-    image: "/public/projects thumbanails/project3.png",
+    image: "/projects thumbanails/project3.png",
     tags: ["React", "OpenWeather API"],
     link: "#",
     github: "#",
@@ -33,7 +33,7 @@ const project = [
   {
     title: "Crud App",
     description: "A Crud app built with React",
-    image: "/public/projects thumbanails/project4.png",
+    image: "/projects thumbanails/project4.png",
     tags: ["React", "OpenWeather API"],
     link: "#",
     github: "#",
