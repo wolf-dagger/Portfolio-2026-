@@ -150,10 +150,12 @@ const projects = () => {
             </div>
             {/* view all CTA */}
             <div className="flex justify-center mt-10">
-              <AnimatedBorderButton className="text-center mt-12 animate-fade-in animation-delay-500">
-                View All Projects
-                <ArrowUpRight className="w-5 h-5" />
-              </AnimatedBorderButton>
+              <a href="https://github.com/wolf-dagger" target="_blank">
+                <AnimatedBorderButton className="text-center mt-12 animate-fade-in animation-delay-500">
+                  View All Projects
+                  <ArrowUpRight className="w-5 h-5" />
+                </AnimatedBorderButton>
+              </a>
             </div>
           </div>
         </section>

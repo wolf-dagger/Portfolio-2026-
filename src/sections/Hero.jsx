@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable react-hooks/purity */
 import Button from "../components/Button";
 import {
@@ -10,21 +9,6 @@ import {
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import { Leetcode } from "@boxicons/react";
-
-const skills = [
-  "React",
-  "Next.js",
-  "Tailwind CSS",
-  "Framer Motion",
-  "GitHub",
-  "NPM",
-  "Javascript",
-  "Java",
-  "Postman",
-  "TypeScript",
-  "Figma",
-  "DevTools",
-];
 
 const Hero = () => {
   return (
@@ -91,13 +75,17 @@ const Hero = () => {
               </div>
               {/* CTA */}
               <div className="flex flex-wrap gap-5 animate-fade-in animation-delay-300 mt-5 items-center justify-around ">
-                <Button size="lg">
-                  Contact Me <ArrowRight className="w-5 h-5" />
-                </Button>
-                <AnimatedBorderButton size="lg">
-                  <Download className="w-5 h-5 glass-strong" />
-                  Download Resume
-                </AnimatedBorderButton>
+                <a href="#contact">
+                  <Button size="lg">
+                    Contact Me <ArrowRight className="w-5 h-5" />
+                  </Button>
+                </a>
+                <a href="/public/Resume/Prashant Resume.pdf" download>
+                  <AnimatedBorderButton size="lg">
+                    <Download className="w-5 h-5 glass-strong" />
+                    Download Resume
+                  </AnimatedBorderButton>
+                </a>
               </div>
 
               {/* Social Links */}
@@ -158,45 +146,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          {/*Skills  */}
-          <section id="skills">
-            <div className="mt-30 animate-fade-in animation-delay-600">
-              <p className="text-lg text-muted-foreground mb-6 text-center">
-                Technologies I work with
-              </p>
-              <div className="relative overflow-hidden">
-                <div
-                  className="absolute left-0 top-0 bottom-0 w-32
-             bg-linear-to-r from-background to-transparent z-10"
-                />
-                <div
-                  className="absolute right-0 top-0 bottom-0 w-32
-             bg-linear-to-l from-background to-transparent z-10"
-                />
-                <div className="flex animate-marquee">
-                  {[...skills, ...skills].map((skill, idx) => (
-                    <div key={idx} className="shrink-0 px-4 md:px-8 py-4">
-                      <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground cursor-pointer transition-colors">
-                        {skill}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 
-      animate-fade-in animation-delay-800"
-        >
-          <a
-            href="#about"
-            className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
-          >
-            <span className="text-xs uppercase tracking-wider">Scroll</span>
-            <ChevronDown className="w-6 h-6 animate-bounce" />
-          </a>
         </div>
       </section>
     </>
