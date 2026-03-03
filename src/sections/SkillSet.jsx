@@ -49,7 +49,7 @@ const SkillSet = () => {
       {/*Skills  */}
       <section
         id="skills"
-        className="container mx-auto py-15 md:py-30 animate-fade-in animation-delay-600"
+        className="container mx-auto py-15 md:py-15 animate-fade-in animation-delay-600"
       >
         <div className="py-15 md:py-30 animate-fade-in animation-delay-600">
           <p className=" text-primary-foreground space-y-10 mb-6 text-center md:text-4xl">
