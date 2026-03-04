@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HoverCard = ({ name, image }) => {
   const cardRef = useRef(null);
@@ -37,7 +38,13 @@ const HoverCard = ({ name, image }) => {
         style={{ transformStyle: "preserve-3d" }}
       >
         <div className="flex justify-center mb-5">
-          <img src={image} alt={name} className="w-15 h-15" />
+          {/* <img src={image} alt={name} className="w-15 h-15" /> */}
+          <LazyLoadImage
+            src={image}
+            alt={name}
+            className="w-15 h-15"
+            loading="lazy"
+          />
         </div>
 
         <div className="flex justify-center">

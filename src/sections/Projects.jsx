@@ -81,6 +81,7 @@ const projects = () => {
                   {/* image */}
                   <div className="relative overflow-hidden aspect-video">
                     <img
+                      loading="lazy"
                       src={project.image}
                       alt={project.title}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"

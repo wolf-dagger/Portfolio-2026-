@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import { Leetcode } from "@boxicons/react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Hero = () => {
   return (
@@ -121,10 +122,11 @@ const Hero = () => {
               <div className="relative max-w-auto mx-auto md:max-w-2xl">
                 <div className="absolute inset-0 rounded-3xl bg-linear-to-br from-primary/60 via-transparent to-primary/10 blur-2xl animate-pulse"></div>
                 <div className="relative glass rounded-3xl p-2 glow-border">
-                  <img
+                  <LazyLoadImage
                     src="/Heor Images/profile.png"
                     alt="Prashant Sharma"
                     className="w-full aspect-4/5 object-cover rounded-2xl "
+                    loading="lazy"
                   />
                   {/* Floating Badge*/}
                   <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
