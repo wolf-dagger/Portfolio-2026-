@@ -81,7 +81,10 @@ const Hero = () => {
                     Contact Me <ArrowRight className="w-5 h-5" />
                   </Button>
                 </a>
-                <a href="/Resume/Prashant Resume.pdf" download>
+                <a
+                  href={`${import.meta.env.BASE_URL}Resume/Prashant Resume.pdf`}
+                  download
+                >
                   <AnimatedBorderButton size="lg">
                     <Download className="w-5 h-5 glass-strong" />
                     Download Resume
