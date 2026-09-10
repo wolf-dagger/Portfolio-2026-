@@ -69,9 +69,9 @@ const Hero = () => {
                   <span className="text-primary glow-text font-bold">
                     Prashant Sharma
                   </span>{" "}
-                  - a Software Developer with experience in React, Next.js, and
-                  TypeScript. Having a passion to develop user-friendly and
-                  visually appealing web applications.
+                  - a Software Developer with experience in MERN stack. Having a
+                  passion to develop user-friendly and visually appealing web
+                  applications.
                 </p>
               </div>
               {/* CTA */}

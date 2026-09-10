@@ -14,8 +14,8 @@ const skillSet = [
     image: "/skills/Tailwind CSS.svg",
   },
   {
-    name: "GitHub",
-    image: "/skills/GitHub.svg",
+    name: "MongoDB",
+    image: "/skills/mongoose.svg",
   },
   {
     name: "NPM",
@@ -26,8 +26,8 @@ const skillSet = [
     image: "/skills/JavaScript.svg",
   },
   {
-    name: "Java",
-    image: "/skills/Java.svg",
+    name: "Express Js",
+    image: "/skills/express.svg",
   },
   {
     name: "Postman",
@@ -38,8 +38,8 @@ const skillSet = [
     image: "/skills/TypeScript.svg",
   },
   {
-    name: "Figma",
-    image: "/skills/Figma.svg",
+    name: "Node Js",
+    image: "/skills/nodejs.svg",
   },
 ];
 
