@@ -5,13 +5,13 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const project = [
   {
-    title: "Weather App",
+    title: "PickUp-Ecommerce",
     description:
-      "A weather app built with React which fetches weather data for the input city.",
-    image: "/projects thumbanails/project2.png",
-    tags: ["React", "OpenWeather API"],
-    link: "https://wolf-dagger.github.io/weatherApp/",
-    github: "https://github.com/wolf-dagger/weatherApp",
+      "pickUP is a full-stack e-commerce application built with React, Vite, Express, MongoDB, and Razorpay. It provides a complete shopping flow for customers and a separate set of management tools for administrators.",
+    image: "/projects thumbanails/pickUP.png",
+    tags: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Express.js"],
+    link: "https://pickup-m21r.onrender.com/",
+    github: "https://github.com/wolf-dagger/pickUP",
   },
   {
     title: "Amazon Clone",
